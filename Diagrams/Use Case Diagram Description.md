@@ -80,6 +80,7 @@
 | **Actors**              | Manager                                                                                        |                                                                                                             |
 | **Preconditions**       | The Lease Manager is authenticated and has access rights to view lease information.            |                                                                                                             |
 | **Postconditions**      | The requested lease details are displayed to the Lease Manager.                                |                                                                                                             |
+
 | UC 11: Update lease                                                                                                       |                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | **Description**         | The Lease Manager edits existing lease agreements. This feature allows for modifications to tenant details, ensuring information remains current and accurate. |
