@@ -47,6 +47,7 @@
 | **Actors**              | Manager                                                                                        |                                                                                                             |
 | **Preconditions**       | The Tenant Manager is authenticated and has access rights to view tenant information.          |                                                                                                             |
 | **Postconditions**      | The requested tenant details are displayed to the Tenant Manager.                              |                                                                                                             |
+
 | UC 7: Update tenant                                                                                                       |                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | **Description**         | The Tenant Manager edits tenant information. This feature allows for modifications to tenant details, ensuring information remains current and accurate. |
