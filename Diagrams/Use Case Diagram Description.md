@@ -15,3 +15,19 @@
 | **Actors**              | Manager                                                                                        |                                                                                                             |
 | **Preconditions**       | The Property Manager is authenticated and has access rights to view property information.      |                                                                                                             |
 | **Postconditions**      | The requested property details are displayed to the Property Manager.                           |                                                                                                             |
+
+| UC 3: Update property                                                                                                     |                                                                                                             |
+|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **Description**         | The Property Manager edits property information. This feature allows for modifications to property details, ensuring information remains current and accurate. |
+| **Connected Use Cases** | Read property                                                                                  |                                                                                                             |
+| **Actors**              | Manager                                                                                        |                                                                                                             |
+| **Preconditions**       | The Property Manager is authenticated and has the necessary permissions to update property information.  |                                                                                                             |
+| **Postconditions**      | The property details are updated in the system's database.                                     |                                                                                                             |
+
+| UC 4: Delete property                                                                                                     |                                                                                                             |
+|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **Description**         | The Property Manager removes property listings from the system. This helps in maintaining an up-to-date database by removing outdated or unavailable listings. |
+| **Connected Use Cases** | Read property                                                                                  |                                                                                                             |
+| **Actors**              | Manager                                                                                        |                                                                                                             |
+| **Preconditions**       | The Property Manager is authenticated and has the necessary permissions to delete a property.  |                                                                                                             |
+| **Postconditions**      | The property is removed from the system's database.                                            |                                                                                                             |
