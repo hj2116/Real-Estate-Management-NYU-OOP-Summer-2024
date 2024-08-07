@@ -31,3 +31,19 @@
 | **Actors**              | Manager                                                                                        |                                                                                                             |
 | **Preconditions**       | The Property Manager is authenticated and has the necessary permissions to delete a property.  |                                                                                                             |
 | **Postconditions**      | The property is removed from the system's database.                                            |                                                                                                             |
+
+| UC 5: Create tenant                                                                                                       |                                                                                                             |
+|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **Description**         | The Tenant Manager registers new tenants with personal details and contact information. This feature ensures all tenant data is systematically recorded and easily accessible. |
+| **Connected Use Cases** | None                                                                                           |                                                                                                             |
+| **Actors**              | Manager                                                                                        |                                                                                                             |
+| **Preconditions**       | The Tenant Manager is authenticated and has the necessary permissions to create a tenant.      |                                                                                                             |
+| **Postconditions**      | A new tenant is created and stored in the system's database.                                    |                                                                                                             |
+
+| UC 6: Read tenant                                                                                                         |                                                                                                             |
+|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **Description**         | The Tenant Manager views tenant profiles and lease agreements. This provides a detailed overview of tenant information and their associated lease agreements. |
+| **Connected Use Cases** | Update tenant, Delete tenant                                                                   |                                                                                                             |
+| **Actors**              | Manager                                                                                        |                                                                                                             |
+| **Preconditions**       | The Tenant Manager is authenticated and has access rights to view tenant information.          |                                                                                                             |
+| **Postconditions**      | The requested tenant details are displayed to the Tenant Manager.                              |                                                                                                             |
