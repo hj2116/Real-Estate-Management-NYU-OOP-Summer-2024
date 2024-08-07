@@ -62,3 +62,19 @@
 | **Actors**              | Manager                                                                                        |                                                                                                             |
 | **Preconditions**       | The Tenant Manager is authenticated and has the necessary permissions to delete a tenant.      |                                                                                                             |
 | **Postconditions**      | The tenant is removed from the system's database.                                              |                                                                                                             |
+
+| UC 9: Create lease                                                                                                        |                                                                                                             |
+|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **Description**         | The Lease Manager generates lease agreements for properties, including start and end dates, and rent amount. This feature ensures all lease details are accurately recorded and easily accessible. |
+| **Connected Use Cases** | None                                                                                           |                                                                                                             |
+| **Actors**              | Manager                                                                                        |                                                                                                             |
+| **Preconditions**       | The Lease Manager is authenticated and has the necessary permissions to create a lease.        |                                                                                                             |
+| **Postconditions**      | A new lease is created and stored in the system's database.                                     |                                                                                                             |
+
+| UC 10: Read lease                                                                                                         |                                                                                                             |
+|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **Description**         | The Lease Manager views existing lease agreements. This provides a detailed overview of all active and past lease agreements. |
+| **Connected Use Cases** | Delete lease                                                                                   |                                                                                                             |
+| **Actors**              | Manager                                                                                        |                                                                                                             |
+| **Preconditions**       | The Lease Manager is authenticated and has access rights to view lease information.            |                                                                                                             |
+| **Postconditions**      | The requested lease details are displayed to the Lease Manager.                                |                                                                                                             |
