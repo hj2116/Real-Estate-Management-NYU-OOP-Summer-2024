@@ -239,6 +239,7 @@ public class PropertyManagement extends JFrame {
             properties = (HashMap<Integer, Property>) ois.readObject();
             currentId = ois.readInt();
         } catch (FileNotFoundException e) {
+            // File not found, start with empty properties
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
