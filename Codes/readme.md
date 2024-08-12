@@ -6,4 +6,5 @@ Implementation code for the REMS (Real Estate Management System)
 - **Data Persistence**: Load and save data for properties, tenants, and leases.
 - **GUI Components**: Use of `JPanel`, `JTable`, `JTextField`, `JButton`, and other Swing components to develop a better user interface and experience.
 
+Also supports load from file and save to file.
 You can return to main screen by closing the current working management tab. 
